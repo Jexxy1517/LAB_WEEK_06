@@ -38,25 +38,45 @@ class MainActivity : AppCompatActivity() {
         catAdapter.setData(
             listOf(
                 CatModel(
-                    Gender.Male,
-                    CatBreed.BalineseJavanese,
-                    "Fred",
-                    "Silent and deadly",
+                    Gender.Male, CatBreed.BalineseJavanese, "Fred", "Silent and deadly",
                     "https://cdn2.thecatapi.com/images/7dj.jpg"
                 ),
                 CatModel(
-                    Gender.Female,
-                    CatBreed.ExoticShorthair,
-                    "Wilma",
-                    "Cuddly assassin",
+                    Gender.Female, CatBreed.ExoticShorthair, "Wilma", "Cuddly assassin",
                     "https://cdn2.thecatapi.com/images/egv.jpg"
                 ),
                 CatModel(
-                    Gender.Unknown,
-                    CatBreed.AmericanCurl,
-                    "Curious George",
-                    "Award winning investigator",
+                    Gender.Unknown, CatBreed.AmericanCurl, "Curious George", "Award winning investigator",
                     "https://cdn2.thecatapi.com/images/bar.jpg"
+                ),
+                // 7 Kucing Baru
+                CatModel(
+                    Gender.Male, CatBreed.ExoticShorthair, "Rocky", "A grumpy but lovable couch potato",
+                    "https://cdn2.thecatapi.com/images/4i2.jpg"
+                ),
+                CatModel(
+                    Gender.Female, CatBreed.BalineseJavanese, "Willow", "Very talkative and elegant",
+                    "https://cdn2.thecatapi.com/images/13v.jpg"
+                ),
+                CatModel(
+                    Gender.Male, CatBreed.AmericanCurl, "Jasper", "Loves chasing laser dots",
+                    "https://cdn2.thecatapi.com/images/aob.jpg"
+                ),
+                CatModel(
+                    Gender.Female, CatBreed.ExoticShorthair, "Hazel", "Loves to be brushed",
+                    "https://cdn2.thecatapi.com/images/9j5.jpg"
+                ),
+                CatModel(
+                    Gender.Male, CatBreed.BalineseJavanese, "Oliver", "Will do anything for a treat",
+                    "https://cdn2.thecatapi.com/images/3r8.jpg"
+                ),
+                CatModel(
+                    Gender.Female, CatBreed.AmericanCurl, "Pepper", "Quick, playful, and full of energy",
+                    "https://cdn2.thecatapi.com/images/5iYq9A-tW.jpg"
+                ),
+                CatModel(
+                    Gender.Unknown, CatBreed.ExoticShorthair, "Binx", "Mysterious and a bit magical",
+                    "https://cdn2.thecatapi.com/images/KJF8fB_20.jpg"
                 )
             )
         )
